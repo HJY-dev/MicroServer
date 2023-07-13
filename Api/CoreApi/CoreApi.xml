@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreApi</name>
+    </assembly>
+    <members>
+        <member name="M:CoreApi.Controllers.HomeController.AddUser(CoreApi.Entity.User)">
+            <summary>
+            依赖注入 添加用户
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApi.Controllers.HomeController.DelUser(System.Int64)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApi.Controllers.HomeController.AddUserProxy(CoreApi.Entity.User)">
+            <summary>
+            Reflection动态代理
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApi.Controllers.HomeController.AddUserCastleProxy(CoreApi.Entity.User)">
+            <summary>
+            Castle动态代理
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApi.Controllers.HomeController.AddUserAutofacProxy(CoreApi.Entity.User)">
+            <summary>
+            Autofac动态代理
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApi.Controllers.HomeController.AddDept(CoreApi.Entity.Dept)">
+            <summary>
+            肉夹馍动态代理
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreApi.Startup.ConfigureContainer(Autofac.ContainerBuilder)">
+            <summary>
+            Autofac
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="P:CoreApi.Startup.AutofacContainer">
+            <summary>
+            Autofac 容器
+            </summary>
+        </member>
+    </members>
+</doc>

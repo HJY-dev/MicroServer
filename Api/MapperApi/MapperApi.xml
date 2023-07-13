@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MapperApi</name>
+    </assembly>
+    <members>
+        <member name="M:MapperApi.AutoMapper.DtoToDtoMappingProfile.#ctor">
+            <summary>
+            映射配置
+            </summary>
+        </member>
+        <member name="T:MapperApi.AutoMapper.EntityToDtoMappingProfile">
+            <summary>
+            实体映射为DTO配置
+            </summary>
+        </member>
+        <member name="M:MapperApi.AutoMapper.EntityToDtoMappingProfile.#ctor">
+            <summary>
+            映射配置
+            </summary>
+        </member>
+        <member name="M:MapperApi.Controllers.HomeController.GetAllActivity">
+            <summary>
+            获取全部活动
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MapperApi.Controllers.HomeController.GetDetailByName(System.String)">
+            <summary>
+            获取活动明细
+            </summary>
+            <param name="activityName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MapperApi.Controllers.HomeController.AddActivity(MapperApi.Model.RequestDto.CreateActivityRequestDto)">
+            <summary>
+            添加活动
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MapperApi.Model.Entity.ActivityEntities.ActiveName">
+            <summary>
+            活动名称
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.Entity.ActivityEntities.StartTime">
+            <summary>
+            活动开始时间
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.Entity.ActivityEntities.EndTime">
+            <summary>
+            活动结束时间
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.RequestDto.CreateActivityRequestDto.ActiveName">
+            <summary>
+            活动名称
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.RequestDto.CreateActivityRequestDto.StartTime">
+            <summary>
+            活动开始时间
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.RequestDto.CreateActivityRequestDto.EndTime">
+            <summary>
+            活动结束时间
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.ResponseDto.ActivityResponseDto.ActiveName">
+            <summary>
+            活动名称
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.ResponseDto.ActivityResponseDto.StartTime">
+            <summary>
+            活动开始时间
+            </summary>
+        </member>
+        <member name="P:MapperApi.Model.ResponseDto.ActivityResponseDto.EndTime">
+            <summary>
+            活动结束时间
+            </summary>
+        </member>
+    </members>
+</doc>

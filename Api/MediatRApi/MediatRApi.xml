@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MediatRApi</name>
+    </assembly>
+    <members>
+        <member name="M:MediatRApi.Controllers.HomeController.PostAsync(MediatRApi.Request.CreateArticleRequest,System.Threading.CancellationToken)">
+            <summary>
+            创建
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MediatRApi.Controllers.HomeController.PutAsync(MediatRApi.Request.UpdateArticleRequest,System.Threading.CancellationToken)">
+            <summary>
+            修改
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MediatRApi.Controllers.HomeController.DeleteAsync(MediatRApi.Request.DeleteArticleRequest,System.Threading.CancellationToken)">
+            <summary>
+            删除
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MediatRApi.Controllers.HomeController.AddUser(MediatR.IMediator)">
+            <summary>
+            添加用户
+            发送邮件-领域事件
+            </summary>
+            <param name="mediator"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MediatRApi.Request.CreateArticleRequest.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:MediatRApi.Request.CreateArticleRequest.Summary">
+            <summary>
+            摘要
+            </summary>
+        </member>
+        <member name="P:MediatRApi.Request.CreateArticleRequest.Content">
+            <summary>
+            内容
+            </summary>Ï
+        </member>
+        <member name="P:MediatRApi.Request.CreateArticleRequest.Author">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:MediatRApi.Request.CreateArticleRequest.Source">
+            <summary>
+            来源
+            </summary>
+        </member>
+        <member name="P:MediatRApi.Request.CreateArticleRequest.SourceUrl">
+            <summary>
+            来源地址
+            </summary>
+        </member>
+        <member name="P:MediatRApi.Request.CreateArticleRequest.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:MediatRApi.Request.UpdateArticleRequest.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="T:Article">
+            <summary>
+            文章
+            </summary>
+        </member>
+        <member name="P:Article.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Article.Summary">
+            <summary>
+            摘要
+            </summary>
+        </member>
+        <member name="P:Article.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Article.Author">
+            <summary>
+            作者
+            </summary>
+        </member>
+        <member name="P:Article.Source">
+            <summary>
+            来源
+            </summary>
+        </member>
+        <member name="P:Article.SourceUrl">
+            <summary>
+            来源地址
+            </summary>
+        </member>
+        <member name="P:Article.Cover">
+            <summary>
+            封面
+            </summary>
+        </member>
+        <member name="P:Article.ViewCount">
+            <summary>
+            浏览量
+            </summary>
+        </member>
+        <member name="P:Article.LikeCount">
+            <summary>
+            点赞量
+            </summary>
+        </member>
+        <member name="P:Article.CommentCount">
+            <summary>
+            评论量
+            </summary>
+        </member>
+        <member name="P:Article.IsTop">
+            <summary>
+            是否置顶
+            </summary>
+        </member>
+        <member name="P:Article.IsRecommend">
+            <summary>
+            是否推荐
+            </summary>
+        </member>
+        <member name="P:Article.IsPublish">
+            <summary>
+            是否发布
+            </summary>
+        </member>
+        <member name="P:Article.PublishTime">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="M:Article.Update(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            更新
+            </summary>
+            <param name="title"></param>
+            <param name="summary"></param>
+            <param name="content"></param>
+            <param name="author"></param>
+            <param name="source"></param>
+            <param name="sourceUrl"></param>
+            <param name="cover"></param>
+            <param name="modifiedUserId"></param>
+        </member>
+        <member name="M:Article.Recommend(System.String)">
+            <summary>
+            推荐
+            </summary>
+            <param name="modifiedUserId"></param>
+        </member>
+        <member name="M:Article.UnRecommend(System.String)">
+            <summary>
+            取消推荐
+            </summary>
+            <param name="modifiedUserId"></param>
+        </member>
+        <member name="M:Article.Top(System.String)">
+            <summary>
+            置顶
+            </summary>
+            <param name="modifiedUserId"></param>
+        </member>
+        <member name="M:Article.UnTop(System.String)">
+            <summary>
+            取消置顶
+            </summary>
+            <param name="modifiedUserId"></param>
+        </member>
+        <member name="M:Article.Publish(System.String)">
+            <summary>
+            发布
+            </summary>
+            <param name="modifiedUserId"></param>
+        </member>
+        <member name="M:Article.UnPublish(System.String)">
+            <summary>
+            取消发布
+            </summary>
+            <param name="modifiedUserId"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MicroServer.OrganizationApi</name>
+    </assembly>
+    <members>
+        <member name="T:MicroServer.OrganizationApi.Controllers.LoginController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MicroServer.OrganizationApi.Controllers.LoginController.TestAAA">
+            <summary>
+            请求刷新Token（以旧换新）
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MicroServer.OrganizationApi.Controllers.LoginController.Md5Password(System.String)">
+            <summary>
+            测试 MD5 加密字符串
+            </summary>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MicroServer.OrganizationApi.Extensions.CustomApiVersion">
+            <summary>
+            自定义版本
+            </summary>
+        </member>
+        <member name="T:MicroServer.OrganizationApi.Extensions.CustomApiVersion.ApiVersions">
+            <summary>
+            Api接口版本 自定义
+            </summary>
+        </member>
+        <member name="F:MicroServer.OrganizationApi.Extensions.CustomApiVersion.ApiVersions.V1">
+            <summary>
+            V1 版本
+            </summary>
+        </member>
+        <member name="F:MicroServer.OrganizationApi.Extensions.CustomApiVersion.ApiVersions.V2">
+            <summary>
+            V2 版本
+            </summary>
+        </member>
+        <member name="T:MicroServer.OrganizationApi.Extensions.SwaggerSetup">
+            <summary>
+            Swagger 启动服务
+            </summary>
+        </member>
+        <member name="T:MicroServer.OrganizationApi.Filter.CustomRouteAttribute">
+            <summary>
+            自定义路由 /api/{version}/[controler]/[action]
+            </summary>
+        </member>
+        <member name="P:MicroServer.OrganizationApi.Filter.CustomRouteAttribute.GroupName">
+            <summary>
+            分组名称,是来实现接口 IApiDescriptionGroupNameProvider
+            </summary>
+        </member>
+        <member name="M:MicroServer.OrganizationApi.Filter.CustomRouteAttribute.#ctor(System.String)">
+            <summary>
+            自定义路由构造函数，继承基类路由
+            </summary>
+            <param name="actionName"></param>
+        </member>
+        <member name="M:MicroServer.OrganizationApi.Filter.CustomRouteAttribute.#ctor(MicroServer.OrganizationApi.Extensions.CustomApiVersion.ApiVersions,System.String)">
+            <summary>
+            自定义版本+路由构造函数，继承基类路由
+            </summary>
+            <param name="actionName"></param>
+            <param name="version"></param>
+        </member>
+        <member name="T:MicroServer.OrganizationApi.Middlewares.SwaggerMildd">
+            <summary>
+            Swagger中间件
+            </summary>
+        </member>
+    </members>
+</doc>
