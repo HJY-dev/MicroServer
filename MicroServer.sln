@@ -49,11 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatRApi", "Api\MediatRAp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aop", "Aop", "{31096C7C-C9F2-41D0-8013-ED6180882F7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApi", "Api\CoreApi\CoreApi.csproj", "{593FCF6D-A3CF-4293-90E7-C87A47D8BEA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi", "Api\CoreApi\CoreApi.csproj", "{593FCF6D-A3CF-4293-90E7-C87A47D8BEA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapper", "Mapper", "{D58AA802-0431-4064-B36F-C9B4EC1936E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapperApi", "Api\MapperApi\MapperApi.csproj", "{2D068BFD-A8FB-44BC-91B4-E890B3661A5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapperApi", "Api\MapperApi\MapperApi.csproj", "{2D068BFD-A8FB-44BC-91B4-E890B3661A5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
